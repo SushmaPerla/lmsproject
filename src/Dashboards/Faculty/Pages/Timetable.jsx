@@ -21,7 +21,6 @@ const Timetable = () => {
         theme={"light"} // Adjust theme if desired
         className="sidebar"
       >
-        
         <MenuList hoverOpenDelay={0} inlineCollapsed={collapsed} />
       </Sider>
       <Layout className="site-layout">
@@ -32,7 +31,7 @@ const Timetable = () => {
         </Header>
         <main className="main">
           <h1>Welcome to the Timetable Page!</h1>
-         
+
           <br />
           <Table />
         </main>

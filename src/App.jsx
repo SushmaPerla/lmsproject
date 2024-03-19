@@ -1,20 +1,19 @@
 import { useState } from "react";
 import { Button, Layout } from "antd";
 import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
-import Logo from "./components/Logo";
-import MenuList from "./components/MenuList";
+import Logo from "./Dashboards/Faculty/components/Logo";
+import MenuList from "./Dashboards/Faculty/components/MenuList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // import Nav from "./components/Nav";
-import Home from "./Pages/Home";
-import Timetable from "./Pages/Timetable";
+import Home from "./Dashboards/Faculty/Pages/Home";
+import Timetable from "./Dashboards/Faculty/Pages/Timetable";
+import Assign from "./Dashboards/Faculty/Pages/Assign";
 
-import Assign from "./Pages/Assign"; 
-
-import AssignValidation from "./Pages/AssignValidation";
-import FeedbackPage from "./Pages/Feedbackpage";
-import Daytodayreport from "./Pages/Daytodayreport";
+import AssignValidation from "./Dashboards/Faculty/Pages/AssignValidation";
+import Feedbackpage from "./Dashboards/Faculty/Pages/Feedbackpage";
+import Daytodayreport from "./Dashboards/Faculty/Pages/Daytodayreport";
 
 const { Header, Sider } = Layout;
 // const { SubMenu } = Menu;
@@ -33,7 +32,7 @@ function App() {
           <Route path="/timetable" element={<Timetable />} />
           <Route path="/assign" element={<Assign />} />
           <Route path="/validate" element={<AssignValidation />} />
-          <Route path="/feedback" element={<FeedbackPage />} />
+          <Route path="/feedback" element={<Feedbackpage />} />
           <Route path="/daytodayreport" element={<Daytodayreport />} />
         </Routes>
       </BrowserRouter>
