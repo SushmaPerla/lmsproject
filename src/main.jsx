@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+// import App from "./App.jsx";
 import "./index.css";
-
-import Navbar from "./Dashboards/Faculty/components/Navbar.jsx";
+import Selection from "./Selection";
+// import Navbar from "./Dashboards/Faculty/components/Navbar.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Navbar />
-    <App />
+    {/* <Navbar />
+    <App /> */}
+    <Selection />
   </React.StrictMode>
 );
