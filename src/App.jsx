@@ -14,6 +14,7 @@ import Assign from "./Dashboards/Faculty/Pages/Assign";
 import AssignValidation from "./Dashboards/Faculty/Pages/AssignValidation";
 import Feedbackpage from "./Dashboards/Faculty/Pages/Feedbackpage";
 import Daytodayreport from "./Dashboards/Faculty/Pages/Daytodayreport";
+import Selection from "./Selection";
 
 const { Header, Sider } = Layout;
 // const { SubMenu } = Menu;
@@ -28,7 +29,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Selection />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/timetable" element={<Timetable />} />
           <Route path="/assign" element={<Assign />} />
           <Route path="/validate" element={<AssignValidation />} />

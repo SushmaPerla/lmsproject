@@ -2,6 +2,7 @@ import Student from "./student.png";
 import Parent from "./parent.jpeg";
 import Admin from "./admin.png";
 import Faculty from "./faculty.png";
+import { Link } from "react-router-dom";
 
 function Selection() {
   return (
@@ -16,8 +17,11 @@ function Selection() {
           {" "}
           <button>
             {" "}
-            <img src={Faculty} />
-            Faculty
+            <Link to="/home">
+              {" "}
+              <img src={Faculty} />
+              Faculty
+            </Link>
           </button>
         </div>
         <div className=" text-4xl p-10 m-10 rounded-md drop-shadow-2xl">

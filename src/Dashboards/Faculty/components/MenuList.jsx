@@ -19,7 +19,7 @@ const MenuList = (darkTheme) => {
         className="menu-bar"
       >
         <Menu.Item key="home" icon={<HomeOutlined />}>
-          <Link to="/" /> Home
+          <Link to="/home" /> Home
         </Menu.Item>
 
         <Menu.Item key="timetable" icon={<AppstoreOutlined />}>
