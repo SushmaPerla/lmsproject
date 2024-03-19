@@ -1,4 +1,5 @@
 import Moon from "./moon.jpg";
+import Googleicon from "./Google_Icons-09-512.webp";
 
 const Loginform = () => {
   return (
@@ -6,13 +7,15 @@ const Loginform = () => {
       <div className="relative w-1/2 h-full flex flex-col">
         <img src={Moon} className="w-full h-full object-cover" />
       </div>
-      <div className="w-1/2 h-full  flex flex-col p-20 justify-between ">
-        <h1 className="text-2xl text-black font-semibold">Faculty</h1>
+      <div className="w-1/2 h-full  flex flex-col p-20 justify-between items-center  ">
+        <h1 className="text-2xl w-full text-black font-semibold  max-w-[500px]">
+          Faculty
+        </h1>
         <div className="w-full flex flex-col max-w-[500px]">
           <div className="w-full flex flex-col mb-2">
             <h3 className="font-semibold text-black text-4xl mb-2 ">Login</h3>
             <p className="text-base mb-2">
-              Welcome back!Please enter your detils
+              Welcome back! Please enter your detils
             </p>
           </div>
           <div className="w-full flex flex-col">
@@ -30,7 +33,7 @@ const Loginform = () => {
           <div className="w-full flex items-center justify-between">
             <div className="w-full flex items-center ">
               <input
-                type="checkbox "
+                type="checkbox"
                 className="w-4 h-4 mr-2 border-2 border-black"
               />
               <p className="text-sm">Remember me?</p>
@@ -40,10 +43,10 @@ const Loginform = () => {
             </p>
           </div>
           <div className="w-full flex flex-col my-4">
-            <button className="w-full text-white my-2 font-semibold bg-black rounded-md p-4 text-center flex items-center justify-center">
+            <button className="w-full text-white my-2 font-semibold bg-black rounded-md p-4 text-center flex items-center justify-center   cursor-pointer">
               Log in
             </button>
-            <button className="w-full text-black my-2 font-semibold bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center">
+            <button className="w-full text-black my-2 font-semibold bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer">
               Register
             </button>
           </div>
@@ -53,8 +56,9 @@ const Loginform = () => {
               or
             </p>
           </div>
-          <div className="w-full text-black my-2 font-semibold bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center">
-           Sign in with google
+          <div className="w-full text-black my-2 font-semibold bg-white border-2 border-black rounded-md p-4 text-center flex items-center justify-center cursor-pointer">
+            <img src={Googleicon} className="h-6 mr-2" />
+            Sign in with google
           </div>
         </div>
         <div className="w-full flex items-center justify-center">
