@@ -16,6 +16,17 @@ import Feedbackpage from "./Dashboards/Faculty/Pages/Feedbackpage";
 import Daytodayreport from "./Dashboards/Faculty/Pages/Daytodayreport";
 import Selection from "./Selection";
 
+import PHome from "./Dashboards/Parent/PPages/PHome";
+import PSemestercalendar from "./Dashboards/Parent/PPages/PSemestercalendar";
+import PAttendance from "./Dashboards/Parent/PPages/PAttendance";
+import PBilling from "./Dashboards/Parent/PPages/PBilling";
+import PStudentguide from "./Dashboards/Parent/PPages/PStudentguide";
+import PProfile from "./Dashboards/Parent/PPages/PProfile";
+import PYear1 from "./Dashboards/Parent/PPages/PYear1";
+import PYear2 from "./Dashboards/Parent/PPages/PYear2";
+import PYear3 from "./Dashboards/Parent/PPages/PYear3";
+import PYear4 from "./Dashboards/Parent/PPages/PYear4";
+
 const { Header, Sider } = Layout;
 // const { SubMenu } = Menu;
 
@@ -36,6 +47,16 @@ function App() {
           <Route path="/validate" element={<AssignValidation />} />
           <Route path="/feedback" element={<Feedbackpage />} />
           <Route path="/daytodayreport" element={<Daytodayreport />} />
+          <Route path="/phome" element={<PHome />} />
+          <Route path="/pattendance" element={<PAttendance />} />
+          <Route path="/pbilling" element={<PBilling />} />
+          <Route path="/pprofile" element={<PProfile />} />
+          <Route path="/psemestercalendar" element={<PSemestercalendar />} />
+          <Route path="/pstudentguide" element={<PStudentguide />} />
+          <Route path="/pyear1" element={<PYear1 />} />
+          <Route path="/pyear2" element={<PYear2 />} />
+          <Route path="/pyear3" element={<PYear3 />} />
+          <Route path="/pyear4" element={<PYear4 />} />
         </Routes>
       </BrowserRouter>
       {/* <Layout>
@@ -61,3 +82,71 @@ function App() {
 }
 
 export default App;
+
+// import { useState } from "react";
+// import { Button, Layout } from "antd";
+// import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
+// // import Logo from "./components/Logo";
+// // import PMenuList from "./Dashboards/Parent/PComponents/PMenulist";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import "./App.css";
+
+// // import Nav from "./components/Nav";
+// // import Home from "./Pages/Home";
+// import PHome from "./Dashboards/Parent/PPages/PHome";
+// import Timetable from "./Pages/Timetable";
+
+// import Assign from "./Pages/Assign";
+
+// import AssignValidation from "./Pages/AssignValidation";
+// import FeedbackPage from "./Pages/Feedbackpage";
+// import Daytodayreport from "./Pages/Daytodayreport";
+// import PSelection from "./Dashboards/Parent/PPages/PSelection";
+// import PAttendance from "./Dashboards/Parent/PPages/PAttendance";
+// import PBilling from "./Dashboards/Parent/PPages/PBilling";
+
+// const { Header, Sider } = Layout;
+// // const { SubMenu } = Menu;
+
+// function App() {
+//   const [collapsed, setCollapsed] = useState(false);
+//   const sidebarTheme = "light"; // Choose your desired theme: "light" or "dark"
+
+//   const toggleCollapse = () => setCollapsed(!collapsed);
+
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path="/" element={<PSelection />} />
+//           <Route path="/phome" element={<PHome />} />
+//           <Route path="/pattendance" element={<PAttendance />} />
+//           <Route path="/pbilling" element={<PBilling />} />
+//           <Route path="/pprofile" element={<Profile />} />
+//           <Route path="/psemestercalendar" element={<PSemestercalendar />} />
+//           <Route path="/pstudentguide" element={<PStudentguide />} />
+//         </Routes>
+//       </BrowserRouter>
+//       {/* <Layout>
+//         <Sider
+//           collapsed={collapsed}
+//           collapsible
+//           theme={sidebarTheme} // Set the desired theme here
+//           className="sidebar"
+//         >
+//           <Logo />
+//           <MenuList hoverOpenDelay={0} inlineCollapsed={collapsed} />
+//         </Sider>
+//         <Layout className="site-layout">
+//           <Header style={{ padding: 0, background: "#f0f2f5" }}>
+//             <Button type="text" className="toggle" onClick={toggleCollapse}>
+//               {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+//             </Button>
+//           </Header>
+//         </Layout>
+//       </Layout> */}
+//     </div>
+//   );
+// }
+
+// export default App;

@@ -12,7 +12,7 @@ function Selection() {
           WELCOME TO THE LMS PLATFORM
         </h1>
       </div>
-      <div className="flex flex-row  justify-around items-center py-20 px-20 justify-center  text-center">
+      <div className="flex flex-row justify-around items-center py-20 px-20 justify-center  text-center">
         <div className=" text-4xl p-10 m-10 rounded-md drop-shadow-2xl ">
           {" "}
           <button>
@@ -27,8 +27,10 @@ function Selection() {
         <div className=" text-4xl p-10 m-10 rounded-md drop-shadow-2xl">
           <button>
             {" "}
-            <img src={Parent} />
-            Parent
+            <Link to="/phome">
+              <img src={Parent} />
+              Parent
+            </Link>
           </button>
         </div>
         <div className=" text-4xl  p-10 m-10 rounded-md drop-shadow-2xl ">
