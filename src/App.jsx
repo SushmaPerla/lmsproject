@@ -36,6 +36,17 @@ import A_Academic_Calender from "./Dashboards/Admin/A_pages/A_Academic_Calender"
 import A_Results from "./Dashboards/Admin/A_pages/A_Results";
 import A_Timetable from "./Dashboards/Admin/A_pages/A_Timetables";
 import A_Post_Updates from "./Dashboards/Admin/A_pages/A_Post_Updates";
+import S_Home from "./Dashboards/Student_Dash/S_pages/S_Home";
+import S_Timetable from "./Dashboards/Student_Dash/S_pages/S_Timetable";
+import S_Assign from "./Dashboards/Student_Dash/S_pages/S_Assign";
+import S_Daytodayreport from "./Dashboards/Student_Dash/S_pages/S_Daytodayreport";
+import S_feedback from "./Dashboards/Student_Dash/S_pages/S_feedback";
+import S_Myprofile from "./Dashboards/Student_Dash/S_pages/S_Myprofile";
+import S_Guide from "./Dashboards/Student_Dash/S_pages/S_Guide";
+import ALogin from "./Loginform/ALogin";
+import PLogin from "./Loginform/PLogin";
+import SLogin from "./Loginform/SLogin";
+import Loginform from "./Loginform/Loginform";
 
 const { Header, Sider } = Layout;
 // const { SubMenu } = Menu;
@@ -80,6 +91,19 @@ function App() {
           <Route path="/a_results" element={<A_Results />} />
           <Route path="/a_Timetable" element={<A_Timetable />} />
           <Route path="/a_post_updates" element={<A_Post_Updates />} />
+          <Route path="/shome" element={<S_Home />} />
+          <Route path="/s_myprofile" element={<S_Myprofile />} />
+          <Route path="/stimetable" element={<S_Timetable />} />
+          <Route path="/s_assign" element={<S_Assign />} />
+
+          <Route path="/s_feedback" element={<S_feedback />} />
+          <Route path="/s_daytodayreport" element={<S_Daytodayreport />} />
+          <Route path="/s_guide" element={<S_Guide />} />
+          <Route path="/alogin" element={<ALogin />} />
+          <Route path="/flogin" element={<Loginform />} />
+          <Route path="/slogin" element={<SLogin />} />
+          <Route path="/plogin" element={<PLogin />} />
+          <Route path="/selection" element={<Selection />} />
         </Routes>
       </BrowserRouter>
       {/* <Layout>

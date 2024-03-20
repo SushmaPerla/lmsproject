@@ -17,7 +17,7 @@ function Selection() {
           {" "}
           <button>
             {" "}
-            <Link to="/home">
+            <Link to="/flogin">
               {" "}
               <img src={Faculty} />
               Faculty
@@ -27,7 +27,7 @@ function Selection() {
         <div className=" text-4xl p-10 m-10 rounded-md drop-shadow-2xl">
           <button>
             {" "}
-            <Link to="/phome">
+            <Link to="/plogin">
               <img src={Parent} />
               Parent
             </Link>
@@ -36,15 +36,17 @@ function Selection() {
         <div className=" text-4xl  p-10 m-10 rounded-md drop-shadow-2xl ">
           <button>
             {" "}
-            <img src={Student} />
-            Student
+            <Link to="/slogin">
+              <img src={Student} />
+              Student
+            </Link>
           </button>
         </div>
         <div className=" text-4xl p-10 m-10 rounded-md drop-shadow-2xl">
           {" "}
           <button>
             {" "}
-            <Link to="/ahome">
+            <Link to="/alogin">
               <img src={Admin} />
               Admin
             </Link>
