@@ -44,8 +44,10 @@ function Selection() {
           {" "}
           <button>
             {" "}
-            <img src={Admin} />
-            Admin
+            <Link to="/ahome">
+              <img src={Admin} />
+              Admin
+            </Link>
           </button>
         </div>
       </div>

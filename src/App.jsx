@@ -26,6 +26,16 @@ import PYear1 from "./Dashboards/Parent/PPages/PYear1";
 import PYear2 from "./Dashboards/Parent/PPages/PYear2";
 import PYear3 from "./Dashboards/Parent/PPages/PYear3";
 import PYear4 from "./Dashboards/Parent/PPages/PYear4";
+import A_home from "./Dashboards/Admin/A_pages/A_home";
+import A_Student_Data from "./Dashboards/Admin/A_pages/A_Student_Data";
+import A_Faculty from "./Dashboards/Admin/A_pages/A_Faculty";
+import A_Workers_Data from "./Dashboards/Admin/A_pages/A_Workers_Data";
+import A_Bills from "./Dashboards/Admin/A_pages/A_Bills";
+import A_Transport from "./Dashboards/Admin/A_pages/A_Transport";
+import A_Academic_Calender from "./Dashboards/Admin/A_pages/A_Academic_Calender";
+import A_Results from "./Dashboards/Admin/A_pages/A_Results";
+import A_Timetable from "./Dashboards/Admin/A_pages/A_Timetables";
+import A_Post_Updates from "./Dashboards/Admin/A_pages/A_Post_Updates";
 
 const { Header, Sider } = Layout;
 // const { SubMenu } = Menu;
@@ -57,6 +67,19 @@ function App() {
           <Route path="/pyear2" element={<PYear2 />} />
           <Route path="/pyear3" element={<PYear3 />} />
           <Route path="/pyear4" element={<PYear4 />} />
+          <Route path="/ahome" element={<A_home />} />
+          <Route path="/a_student_data" element={<A_Student_Data />} />
+          <Route path="/a_faculty" element={<A_Faculty />} />
+          <Route path="/a_workers_data" element={<A_Workers_Data />} />
+          <Route path="/a_transport" element={<A_Transport />} />
+          <Route path="/a_bills" element={<A_Bills />} />
+          <Route
+            path="/a_academics_calender"
+            element={<A_Academic_Calender />}
+          />
+          <Route path="/a_results" element={<A_Results />} />
+          <Route path="/a_Timetable" element={<A_Timetable />} />
+          <Route path="/a_post_updates" element={<A_Post_Updates />} />
         </Routes>
       </BrowserRouter>
       {/* <Layout>
