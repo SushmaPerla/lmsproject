@@ -1,11 +1,10 @@
 import React from "react";
+import PNavbar from "../PComponents/PNavbar";
 
 const PProfile = () => {
   return (
     <div>
-      <div>
-        <Abc />
-      </div>
+      <PNavbar/>
       <div>
         <Link to="/dashboard">
           <IoMdArrowRoundBack />

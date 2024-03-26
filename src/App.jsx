@@ -104,6 +104,7 @@ function App() {
           <Route path="/slogin" element={<SLogin />} />
           <Route path="/plogin" element={<PLogin />} />
           <Route path="/selection" element={<Selection />} />
+          <Route path="/logout" element={<Selection/>}/>
         </Routes>
       </BrowserRouter>
       {/* <Layout>
