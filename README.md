@@ -30,7 +30,8 @@ Frontend: HTML, CSS, Tailwind CSS, JavaScript, React.js
 Version Control: Git & GitHub
 
 📂 Project Structure
-lmsproject-frontend/
+
+        lmsproject-frontend/
         │-- public/          # Static files (index.html, favicon, etc.)
         │-- src/
         │   │-- components/  # Reusable UI components
