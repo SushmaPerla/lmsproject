@@ -31,36 +31,36 @@ Version Control: Git & GitHub
 
 📂 Project Structure
 lmsproject-frontend/
-│-- public/          # Static files (index.html, favicon, etc.)
-│-- src/
-│   │-- components/  # Reusable UI components
-│   │-- pages/       # Role-based dashboards (Admin, Faculty, Student, Parent)
-│   │-- assets/      # Images, logos, etc.
-│   └-- App.js       # Main React app entry point
-│-- package.json     # Dependencies
-└-- README.md        # Project documentation
+        │-- public/          # Static files (index.html, favicon, etc.)
+        │-- src/
+        │   │-- components/  # Reusable UI components
+        │   │-- pages/       # Role-based dashboards (Admin, Faculty, Student, Parent)
+        │   │-- assets/      # Images, logos, etc.
+        │   └-- App.js       # Main React app entry point
+        │-- package.json     # Dependencies
+        └-- README.md        # Project documentation
 
 ⚙️ Installation & Setup
 
 Clone the repository
 
-  git clone https://github.com/your-username/lmsproject-frontend.git
-  cd lmsproject-frontend
+      git clone https://github.com/your-username/lmsproject-frontend.git
+      cd lmsproject-frontend
 
 
 Install dependencies
 
-  npm install
+      npm install
 
 
 Start the development server
 
-  npm start
+      npm start
 
 
 Open in your browser:
 
-  http://localhost:3000
+      http://localhost:3000
 
 
 👩‍💻 Collaboration
