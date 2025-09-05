@@ -7,13 +7,13 @@ The project demonstrates role-based dashboards for Admin, Faculty, Student, and 
 
 🔑 Role-Based Dashboards
 
-Admin: Manage users & system interface
+    Admin: Manage users & system interface
 
-Faculty: Upload/view materials, track students
+    Faculty: Upload/view materials, track students
 
-Student: Access courses & assignments
+    Student: Access courses & assignments
 
-Parent: Monitor student performance
+    Parent: Monitor student performance
 
 🎨 Responsive UI with Tailwind CSS
 
@@ -25,7 +25,7 @@ Parent: Monitor student performance
 
 🛠️ Tech Stack
 
-Frontend: React.js, JavaScript, HTML, CSS, Tailwind CSS
+Frontend: HTML, CSS, Tailwind CSS, JavaScript, React.js 
 
 Version Control: Git & GitHub
 
@@ -44,25 +44,25 @@ lmsproject-frontend/
 
 Clone the repository
 
-git clone https://github.com/your-username/lmsproject-frontend.git
-cd lmsproject-frontend
+  git clone https://github.com/your-username/lmsproject-frontend.git
+  cd lmsproject-frontend
 
 
 Install dependencies
 
-npm install
+  npm install
 
 
 Start the development server
 
-npm start
+  npm start
 
 
 Open in your browser:
 
-http://localhost:3000
+  http://localhost:3000
 
 
 👩‍💻 Collaboration
 
-This project was developed collaboratively with Git & GitHub for version control, ensuring smooth teamwork and contribution tracking.
+  This project was developed collaboratively with Git & GitHub for version control, ensuring smooth teamwork and contribution tracking.
